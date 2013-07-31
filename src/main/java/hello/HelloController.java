@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HelloController {
-
+	
 	@RequestMapping("/")
 	public @ResponseBody String index() {
 		return "Greetings from Spring Boot!";
